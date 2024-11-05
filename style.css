@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('https://c.tenor.com/0AUShZgWlM4AAAAC/adorable-cute.gif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+
+p {
+    font-size: 30px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.8),  
+        0 0 10px rgba(255, 255, 255, 0.6), 
+        0 0 15px rgba(0, 255, 255, 0.8),   
+        0 0 20px rgba(0, 255, 255, 0.6);   
+        color: black;
+}
+
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.sparkle-text {
+    font-size: 2em; /* Adjust the font size as needed */
+    color: black; /* Text color */
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.8), /* Soft white glow */
+        0 0 10px rgba(255, 255, 255, 0.6), /* Stronger white glow */
+        0 0 15px rgba(	0, 255, 255),   /* Yellow glow for stars */
+        0 0 20px rgba(	0, 255, 255),   /* Stronger yellow glow */
+        0 0 25px rgba(255, 255, 255, 0.9), /* Brighter white glow */
+        0 0 30px rgba(0, 255, 255, 0.5),   /* Cyan glow for effect */
+        0 0 35px rgba(255, 0, 255, 0.5);   /* Magenta glow for more sparkle */
+}
+
+/* Optional: Adding a background to help visualize the sparkle effect */
+body {
+    background-color: black; /* Dark background for better contrast */
+    color: white; /* Default text color */
+}
+
